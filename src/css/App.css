@@ -1,1 +1,8 @@
-/*# sourceMappingURL=App.css.map */
+@font-face {
+  font-family: Acma;
+  src: url("../fonts/PPAcma-Semibold.otf") format("opentype");
+}/*# sourceMappingURL=App.css.map */
+
+.acma {
+    font-family: "Acma", sans-serif;
+}
