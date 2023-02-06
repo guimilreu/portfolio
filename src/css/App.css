@@ -1,8 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @font-face {
-  font-family: Acma;
-  src: url("../fonts/PPAcma-Semibold.otf") format("opentype");
-}/*# sourceMappingURL=App.css.map */
-
-.acma {
-    font-family: "Acma", sans-serif;
+  font-family: Migra;
+  src: url("../fonts/Migra-Extrabold.otf") format("opentype");
 }
+@font-face {
+  font-family: Gosha;
+  src: url("../fonts/PPGoshaSans-Regular.otf") format("opentype");
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.migra {
+  font-family: "Migra", sans-serif;
+}
+
+.gosha {
+  font-family: "Gosha", sans-serif;
+}/*# sourceMappingURL=App.css.map */

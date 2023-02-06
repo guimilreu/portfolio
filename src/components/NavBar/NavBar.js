@@ -3,10 +3,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-	{ name: 'Dashboard', href: '#', current: true },
-	{ name: 'Team', href: '#', current: false },
-	{ name: 'Projects', href: '#', current: false },
-	{ name: 'Calendar', href: '#', current: false },
+	{ name: 'Home', href: '#', current: true },
+	{ name: 'Expertise', href: '#', current: false },
+	{ name: 'Work', href: '#', current: false },
+	{ name: 'Contact', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -31,19 +31,10 @@ function NavBar() {
 									)}
 								</Disclosure.Button>
 							</div>
-							<div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-between">
-								<div className="flex flex-shrink-0 items-center">
-									<img
-										className="block h-8 w-auto lg:hidden"
-										src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-										alt="Your Company"
-									/>
-									<img
-										className="hidden h-8 w-auto lg:block"
-										src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-										alt="Your Company"
-									/>
-								</div>
+							<div className="flex flex-1 items-center justify-between sm:justify-between">
+								<a href="/" className="transition gosha text-3xl text-white hover:text-sky-300 flex flex-shrink-0 items-center">
+									MILREU
+								</a>
 								<div className="hidden sm:ml-6 sm:block">
 									<div className="flex space-x-4">
 										{navigation.map((item) => (
